@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(bgimg.jpg);
+    background-repeat: no-repeat;
+    background-size: 1550px 750px;
+    width: auto;
+}
+.login{
+   padding-top: 60px;
+   padding-bottom: 20px;
+}
+form{
+    text-align: center;
+    background-color:rgb(73, 228, 179);
+    margin-top: 170px;
+    height: 400px;
+    width: 450px;
+    margin-left: 520px;
+    border-radius: 18px;
+    opacity: 0.8;
+    
+}
+input[type=text], input[type=password]{
+    display: block;
+    padding: 10px;
+    margin: 15px;
+    width: 300px;
+    margin-left: 75px;
+    border-radius: 18px;
+
+}
+input[type=text]:focus, input[type=password]:focus{
+    background-color: rgb(176, 243, 176);
+}
+.btn1{
+    width: 200px;
+    margin: 15px;
+    padding: 8px;
+    text-align: center;
+    border-radius:18px;
+    background-color:black;
+    color: beige;
+}
